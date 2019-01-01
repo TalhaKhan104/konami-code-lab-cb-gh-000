@@ -11,7 +11,7 @@ const codes = [
   "a"
 ];
 let index = 0;
-function init(e) {
+function init() {
   const key = e.key;
   if(key === codes[index]){
     index++;
@@ -24,3 +24,4 @@ function init(e) {
     index = 0;
   }
 }
+init();
